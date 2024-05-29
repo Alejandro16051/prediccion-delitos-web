@@ -1,0 +1,173 @@
+/* ESTILOS PERSONALIZADOS GLOBALES */
+html,
+body {
+  /* Establece la altura y el ancho del documento a 100% */
+  height: 100%;
+  width: 100%;
+  /* Establece el color de fondo a negro */
+  background-color: #000;
+  /* Establece el color del texto a blanco */
+  color: #fff;
+  /* Establece los márgenes y el relleno a 0 */
+  margin: 0;
+  padding: 0;
+}
+
+/* TAMAÑO DEL CONTENEDOR DEL MAPA DE GOOGLE MAPS */
+div#map {
+  /* Establece la altura del contenedor del mapa al 90% */
+  height: 90%;
+  /* Establece el ancho del contenedor del mapa al 100% */
+  width: 100%;
+}
+
+/* HEADER */
+.navbar {
+  /* Establece la altura mínima del encabezado al 10% */
+  min-height: 10%;
+  /* Establece el encabezado como un elemento flexible */
+  display: flex;
+  /* Justifica el contenido del encabezado entre los extremos */
+  justify-content: space-between;
+  /* Alinea los elementos del encabezado verticalmente */
+  align-items: center;
+  /* Establece el relleno del encabezado a 10 píxeles */
+  padding: 10px;
+  /* Establece el color de fondo del encabezado a negro */
+  background-color: #000;
+}
+
+/* Estilos para los elementos de la izquierda y derecha del encabezado */
+.left,
+.right {
+  /* Establece los elementos como elementos flexibles */
+  display: flex;
+  /* Alinea los elementos verticalmente */
+  align-items: center;
+}
+
+/* Styles for the buttons on the left and right sides of the navbar */
+.left .button,
+.right .button {
+  background-color: #000;
+  /* Set the background color to black */
+  color: white;
+  /* Set the text color to white */
+  border: none;
+  /* Remove the border */
+  text-align: center;
+  /* Center the text */
+  text-decoration: none;
+  /* Remove the underline from the text */
+  display: inline-block;
+  /* Display the buttons as inline elements */
+  cursor: pointer;
+  /* Change the cursor to a pointer when hovering over the buttons */
+  font-size: 16px;
+  /* Set the font size to 16 pixels */
+  border-radius: 4px;
+  /* Add a 4-pixel border radius to the buttons */
+  height: 100%;
+  /* Set the height of the buttons to 100% of the containing element */
+  display: flex;
+  /* Display the buttons as flex elements */
+  align-items: center;
+  /* Center the buttons vertically */
+  justify-content: center;
+  /* Center the buttons horizontally */
+}
+
+/* Styles for the middle section of the navbar */
+.middle {
+  flex: 0 0 10%;
+  /* Set the middle section to take up 10% of the available space */
+}
+
+/* Styles for the search container */
+.search-container {
+  display: flex;
+  /* Display the search container as a flex element */
+  align-items: center;
+  /* Center the elements inside the search container vertically */
+  height: 100%;
+  /* Set the height of the search container to 100% of the containing element */
+}
+
+/* Styles for the search input field */
+.search-container input[type='text'] {
+  padding: 5px;
+  /* Add padding to the input field */
+  font-size: 16px;
+  /* Set the font size to 16 pixels */
+  border: 1px solid #ccc;
+  /* Add a 1-pixel solid border with the color #ccc */
+  border-radius: 4px 0 0 4px;
+  /* Add a border radius of 4 pixels to the left side of the input field */
+  outline: none;
+  /* Remove the outline from the input field */
+  flex: 1;
+  /* Set the input field to take up the remaining space in the search container */
+}
+
+/* Styles for the search button */
+.search-container button {
+  padding: 5px;
+  /* Add padding to the button */
+  background: #4caf50;
+  /* Set the background color to #4caf50 */
+  color: white;
+  /* Set the text color to white */
+  border: none;
+  /* Remove the border from the button */
+  cursor: pointer;
+  /* Change the cursor to a pointer when hovering over the button */
+  font-size: 16px;
+  /* Set the font size to 16 pixels */
+  border-radius: 0 4px 4px 0;
+  /* Add a border radius of 4 pixels to the right side of the button */
+}
+
+/* Styles for the left section of the navbar */
+.navbar .left {
+  flex: 0 0 30%;
+  /* Set the left section to take up 30% of the available space */
+  display: flex;
+  /* Display the left section as a flex element */
+  justify-content: space-between;
+  /* Space out the elements in the left section evenly */
+}
+
+/* Styles for the right section of the navbar */
+.navbar .right {
+  flex: 0 0 55%;
+  /* Set the right section to take up 55% of the available space */
+  display: flex;
+  /* Display the right section as a flex element */
+  justify-content: space-between;
+  /* Space out the elements in the right section evenly */
+}
+
+/* Styles for the left section of the navbar */
+.navbar .left .button {
+  flex: 0 0 45%;
+  /* Set the left section to take up 45% of the available space */
+}
+
+/* Styles for the search container in the right section of the navbar */
+.navbar .right .search-container {
+  flex: 0 0 80%;
+  /* Set the search container to take up 80% of the available space */
+}
+
+/* Styles for the button in the right section of the navbar */
+.navbar .right .button {
+  flex: 0 0 15%;
+  /* Set the button to take up 15% of the available space */
+}
+
+/* Styles for images in the right and left sections of the navbar */
+.navbar .right img,
+.navbar .left img {
+  width: 24px;
+  /* Set the width of images to 24 pixels */
+}

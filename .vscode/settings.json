@@ -1,0 +1,6 @@
+{
+    // Enable inline completion for IDX.aI
+    "IDX.aI.enableInlineCompletion": true,
+    // Enable codebase indexing for IDX.aI
+    "IDX.aI.enableCodebaseIndexing": true
+}

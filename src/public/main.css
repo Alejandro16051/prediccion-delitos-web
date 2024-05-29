@@ -99,7 +99,7 @@ div#map {
   /* Add padding to the input field */
   font-size: 16px;
   /* Set the font size to 16 pixels */
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   /* Add a 1-pixel solid border with the color #ccc */
   border-radius: 4px 0 0 4px;
   /* Add a border radius of 4 pixels to the left side of the input field */
@@ -113,11 +113,11 @@ div#map {
 .search-container button {
   padding: 5px;
   /* Add padding to the button */
-  background: #4caf50;
+  background: #000;
   /* Set the background color to #4caf50 */
   color: white;
   /* Set the text color to white */
-  border: none;
+  border: 1px solid #ccc;
   /* Remove the border from the button */
   cursor: pointer;
   /* Change the cursor to a pointer when hovering over the button */

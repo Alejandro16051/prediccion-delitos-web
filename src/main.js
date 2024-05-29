@@ -32,7 +32,6 @@ app.use(express.static(join(__dirname, 'public')));
 app.use(express.static(join(__dirname, 'images')));
 
 // Start the server on port 3000.
-app.listen(3000);
-
-// Log a message to the console indicating that the server is listening on port 3000.
-console.log('Server is listening on port', 3000);
+app.listen(3000, () => {
+    console.log(`Listening on http://localhost:3000`);
+})
